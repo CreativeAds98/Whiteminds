@@ -8,15 +8,11 @@
 </head>
 <body>
 
-  <div class="container">
-    <h1>Welcome to Our Site</h1>
-    <p>Click the button below to go to the PHP page.</p>
-    
-    <!-- Link to PHP file -->
-    <a href="index.php">
-      <button>Go to PHP Page</button>
-    </a>
-  </div>
+<form accept-charset="UTF-8" action="index.php" enctype="multipart/form-data" method="POST">
+  <input type="email" id="email" name="email" required>
+  <textarea rows="4" cols="50" name="comment" required></textarea>
+  <button type="submit">Submit</button>
+</form>
 
 </body>
 </html>
